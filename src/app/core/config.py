@@ -31,6 +31,7 @@ class Settings(BaseSettings):
 
 
 # Create a singleton settings instance
+#singleton pattern is a design pattern that ensures that a class has only one instance, and provides a global point of access to that instance
 _settings: Settings | None = None
 
 
